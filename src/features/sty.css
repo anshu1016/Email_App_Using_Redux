@@ -1,0 +1,96 @@
+.email-container {
+  font-family: Arial, sans-serif;
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  background: #f7f7f7;
+}
+
+.email-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.email-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 10px 0;
+  background: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.email-item:hover {
+  background-color: #f0f0f0;
+}
+
+.email-profile-pic {
+  width: 50px;
+  height: 50px;
+  background: #e54065;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 1.3em;
+  margin-right: 20px;
+}
+
+.email-details {
+  flex: 1;
+}
+
+.email-short-desc {
+  color: #888;
+  margin-top: 5px;
+}
+
+.email-date {
+  color: #aaa;
+  font-size: 0.8em;
+  margin-top: 10px;
+}
+
+.email-favorite {
+  display: inline-block;
+  background-color: #e54065;
+  color: #fff;
+  border-radius: 5px;
+  padding: 3px 8px;
+  margin-top: 10px;
+}
+
+.email-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.email-pagination button {
+  background-color: #e54065;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.email-pagination button:hover {
+  background-color: #d12d57;
+}
+
+.email-pagination button:disabled {
+  background-color: #f0a1b8;
+  cursor: not-allowed;
+}
+
+.email-pagination span {
+  margin: 0 20px;
+}

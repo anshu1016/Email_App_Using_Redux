@@ -1,0 +1,41 @@
+.email-view {
+  position: relative;
+}
+
+.email-layout {
+  display: flex;
+}
+
+.top-right-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: #e54065;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.top-right-btn:hover {
+  background-color: #d12d57;
+}
+
+.top-left-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px;
+  background-color: #e54065;
+  color: white;
+  border: none;
+  border-radius: 50%; /* Circle shape */
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.top-left-btn:hover {
+  background-color: #d12d57;
+}
